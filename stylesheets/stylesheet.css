@@ -17,7 +17,10 @@ li a:visited{
 li a:hover{
     color: pink;
 }
-ul>li a::first-letter{
+ul :first-child::first-letter{
     font-weight: bold;
     font-size: 120%;
+}
+body > a{
+    background-color: yellow;
 }
